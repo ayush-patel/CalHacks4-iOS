@@ -18,8 +18,9 @@ class MyCollectionViewCell: UICollectionViewCell {
     var URLString: String?
     
     @IBAction func resourcesButton(_ sender: Any) {
-//        print(URLString)
-//        if let url = NSURL(string: URLString!){ UIApplication.shared.open(url as URL, options: [:], completionHandler: nil) }
+        if URLString != nil{
+        if let url = NSURL(string: URLString!){ UIApplication.shared.open(url as URL, options: [:], completionHandler: nil) }
+    }
     }
     
 }
@@ -64,8 +65,13 @@ class ClassCollectionViewController: UIViewController, UICollectionViewDelegate,
             tagString.append(" ")
         }
         cell.tags.text = tagString
-        //cell.URLString = self.cellData[indexPath.item].relatedResources[0]
-        
+        if self.cellData[indexPath.item].relatedResources.count > 0{
+            let relatedResources = self.cellData[indexPath.item].relatedResources[0]
+            cell.URLString = relatedResources
+        }
+        else{
+            cell.URLString = nil
+        }
         return cell
     }
     
