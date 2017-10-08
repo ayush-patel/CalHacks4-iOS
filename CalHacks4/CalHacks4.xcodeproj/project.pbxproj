@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A5157781F8929000011F0CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157771F8929000011F0CB /* AppDelegate.swift */; };
-		2A51577A1F8929000011F0CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157791F8929000011F0CB /* ViewController.swift */; };
+		2A51577A1F8929000011F0CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157791F8929000011F0CB /* HomeViewController.swift */; };
 		2A51577D1F8929000011F0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A51577B1F8929000011F0CB /* Main.storyboard */; };
 		2A51577F1F8929000011F0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A51577E1F8929000011F0CB /* Assets.xcassets */; };
 		2A5157821F8929000011F0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5157801F8929000011F0CB /* LaunchScreen.storyboard */; };
@@ -16,6 +16,8 @@
 		2A51578E1F892A4E0011F0CB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51578D1F892A4E0011F0CB /* User.swift */; };
 		2A5157901F892BAA0011F0CB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51578F1F892BAA0011F0CB /* NetworkManager.swift */; };
 		2A5157921F893F5B0011F0CB /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157911F893F5B0011F0CB /* extensions.swift */; };
+		2A5157951F8A1A9D0011F0CB /* ClassCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157941F8A1A9D0011F0CB /* ClassCollectionViewController.swift */; };
+		2A5157971F8A42400011F0CB /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157961F8A42400011F0CB /* Classes.swift */; };
 		E55A7B04374A4D0DBFAF26BB /* Pods_CalHacks4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A185A932936D57C76BE6728 /* Pods_CalHacks4.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +25,7 @@
 		096F3EEBD3B38E2C294EAC9E /* Pods-CalHacks4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalHacks4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalHacks4/Pods-CalHacks4.debug.xcconfig"; sourceTree = "<group>"; };
 		2A5157741F8929000011F0CB /* CalHacks4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalHacks4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5157771F8929000011F0CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A5157791F8929000011F0CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A5157791F8929000011F0CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2A51577C1F8929000011F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A51577E1F8929000011F0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A5157811F8929000011F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +34,8 @@
 		2A51578D1F892A4E0011F0CB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2A51578F1F892BAA0011F0CB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2A5157911F893F5B0011F0CB /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		2A5157941F8A1A9D0011F0CB /* ClassCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCollectionViewController.swift; sourceTree = "<group>"; };
+		2A5157961F8A42400011F0CB /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		7A185A932936D57C76BE6728 /* Pods_CalHacks4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalHacks4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EB1532416BD422641CDF7B /* Pods-CalHacks4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalHacks4.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalHacks4/Pods-CalHacks4.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,9 +75,10 @@
 			children = (
 				2A51578F1F892BAA0011F0CB /* NetworkManager.swift */,
 				2A51578C1F892A110011F0CB /* Models */,
-				2A5157791F8929000011F0CB /* ViewController.swift */,
-				2A51577B1F8929000011F0CB /* Main.storyboard */,
 				2A5157891F8929910011F0CB /* LoginViewController.swift */,
+				2A5157791F8929000011F0CB /* HomeViewController.swift */,
+				2A5157941F8A1A9D0011F0CB /* ClassCollectionViewController.swift */,
+				2A51577B1F8929000011F0CB /* Main.storyboard */,
 				2A51578B1F8929A00011F0CB /* Supporting Files */,
 			);
 			path = CalHacks4;
@@ -95,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				2A51578D1F892A4E0011F0CB /* User.swift */,
+				2A5157961F8A42400011F0CB /* Classes.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -242,9 +248,11 @@
 			files = (
 				2A51578E1F892A4E0011F0CB /* User.swift in Sources */,
 				2A51578A1F8929910011F0CB /* LoginViewController.swift in Sources */,
+				2A5157951F8A1A9D0011F0CB /* ClassCollectionViewController.swift in Sources */,
 				2A5157901F892BAA0011F0CB /* NetworkManager.swift in Sources */,
-				2A51577A1F8929000011F0CB /* ViewController.swift in Sources */,
+				2A51577A1F8929000011F0CB /* HomeViewController.swift in Sources */,
 				2A5157781F8929000011F0CB /* AppDelegate.swift in Sources */,
+				2A5157971F8A42400011F0CB /* Classes.swift in Sources */,
 				2A5157921F893F5B0011F0CB /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

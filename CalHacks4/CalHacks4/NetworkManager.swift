@@ -19,12 +19,17 @@ struct API{
         //POST
         static let register = "/user/register"
         static let login = "/user/login"
+        static let search = "/classes/search"
         
         //GET
+        static let getAllClasses = "/classes"
+        static let getSpecificClass = "/classes" //+ URL parameter = ID
     }
     
     //Headers for the Alamofire Request
-    static var headers: HTTPHeaders = ["Accept": "application/json"]
+    static var headers: HTTPHeaders =
+        ["Authorization": "bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2VtYWlsIjoidGVycmVuY2Voby5ib29rc0BnbWFpbC5jb20iLCJ1c2VyX2lkIjoxLCJpc3MiOiJ1c2VyIn0.Cc2lmudZiHzbXLm_Nt9pbaRzOHJvTajkmg-kTuAM1QH6_jdM9SsUk_Cbyl-kPJZrKIwAVdJwuto-YDshnajQrle-hvlPiNl7TgfHJ-pNX2KpxMTPCTS4mPJOXcvCR3-DEK3KPNczwgFnGwCCGM0n6xAMB1SBnt3vIn--lw1ifKs",
+        "Accept": "application/json"]
     
     //Authentication Token
     static var token: String?{
