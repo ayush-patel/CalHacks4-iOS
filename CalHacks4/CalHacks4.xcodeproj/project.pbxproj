@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A5157781F8929000011F0CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157771F8929000011F0CB /* AppDelegate.swift */; };
+		2A51577A1F8929000011F0CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157791F8929000011F0CB /* ViewController.swift */; };
+		2A51577D1F8929000011F0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A51577B1F8929000011F0CB /* Main.storyboard */; };
+		2A51577F1F8929000011F0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A51577E1F8929000011F0CB /* Assets.xcassets */; };
+		2A5157821F8929000011F0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5157801F8929000011F0CB /* LaunchScreen.storyboard */; };
+		2A51578A1F8929910011F0CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157891F8929910011F0CB /* LoginViewController.swift */; };
+		2A51578E1F892A4E0011F0CB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51578D1F892A4E0011F0CB /* User.swift */; };
+		2A5157901F892BAA0011F0CB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51578F1F892BAA0011F0CB /* NetworkManager.swift */; };
+		2A5157921F893F5B0011F0CB /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5157911F893F5B0011F0CB /* extensions.swift */; };
+		E55A7B04374A4D0DBFAF26BB /* Pods_CalHacks4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A185A932936D57C76BE6728 /* Pods_CalHacks4.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		096F3EEBD3B38E2C294EAC9E /* Pods-CalHacks4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalHacks4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalHacks4/Pods-CalHacks4.debug.xcconfig"; sourceTree = "<group>"; };
+		2A5157741F8929000011F0CB /* CalHacks4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalHacks4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A5157771F8929000011F0CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A5157791F8929000011F0CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A51577C1F8929000011F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A51577E1F8929000011F0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A5157811F8929000011F0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A5157831F8929000011F0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A5157891F8929910011F0CB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2A51578D1F892A4E0011F0CB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2A51578F1F892BAA0011F0CB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2A5157911F893F5B0011F0CB /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		7A185A932936D57C76BE6728 /* Pods_CalHacks4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalHacks4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EB1532416BD422641CDF7B /* Pods-CalHacks4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalHacks4.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalHacks4/Pods-CalHacks4.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A5157711F8929000011F0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55A7B04374A4D0DBFAF26BB /* Pods_CalHacks4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A51576B1F8929000011F0CB = {
+			isa = PBXGroup;
+			children = (
+				2A5157761F8929000011F0CB /* CalHacks4 */,
+				2A5157751F8929000011F0CB /* Products */,
+				679094EE7601B4B4AAA3E87D /* Pods */,
+				FDB192E8EAAACFB7EDF97BF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A5157751F8929000011F0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A5157741F8929000011F0CB /* CalHacks4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A5157761F8929000011F0CB /* CalHacks4 */ = {
+			isa = PBXGroup;
+			children = (
+				2A51578F1F892BAA0011F0CB /* NetworkManager.swift */,
+				2A51578C1F892A110011F0CB /* Models */,
+				2A5157791F8929000011F0CB /* ViewController.swift */,
+				2A51577B1F8929000011F0CB /* Main.storyboard */,
+				2A5157891F8929910011F0CB /* LoginViewController.swift */,
+				2A51578B1F8929A00011F0CB /* Supporting Files */,
+			);
+			path = CalHacks4;
+			sourceTree = "<group>";
+		};
+		2A51578B1F8929A00011F0CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A5157911F893F5B0011F0CB /* extensions.swift */,
+				2A51577E1F8929000011F0CB /* Assets.xcassets */,
+				2A5157771F8929000011F0CB /* AppDelegate.swift */,
+				2A5157801F8929000011F0CB /* LaunchScreen.storyboard */,
+				2A5157831F8929000011F0CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A51578C1F892A110011F0CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A51578D1F892A4E0011F0CB /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		679094EE7601B4B4AAA3E87D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				096F3EEBD3B38E2C294EAC9E /* Pods-CalHacks4.debug.xcconfig */,
+				E9EB1532416BD422641CDF7B /* Pods-CalHacks4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDB192E8EAAACFB7EDF97BF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A185A932936D57C76BE6728 /* Pods_CalHacks4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A5157731F8929000011F0CB /* CalHacks4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A5157861F8929000011F0CB /* Build configuration list for PBXNativeTarget "CalHacks4" */;
+			buildPhases = (
+				384108DB61505A779599BED3 /* [CP] Check Pods Manifest.lock */,
+				2A5157701F8929000011F0CB /* Sources */,
+				2A5157711F8929000011F0CB /* Frameworks */,
+				2A5157721F8929000011F0CB /* Resources */,
+				CADEDE15B62AEFFB521CEB6D /* [CP] Embed Pods Frameworks */,
+				7FA816DE9D667EE061ACF3CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalHacks4;
+			productName = CalHacks4;
+			productReference = 2A5157741F8929000011F0CB /* CalHacks4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A51576C1F8929000011F0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Klok Tech";
+				TargetAttributes = {
+					2A5157731F8929000011F0CB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8DDCRUXY46;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2A51576F1F8929000011F0CB /* Build configuration list for PBXProject "CalHacks4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A51576B1F8929000011F0CB;
+			productRefGroup = 2A5157751F8929000011F0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A5157731F8929000011F0CB /* CalHacks4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A5157721F8929000011F0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5157821F8929000011F0CB /* LaunchScreen.storyboard in Resources */,
+				2A51577F1F8929000011F0CB /* Assets.xcassets in Resources */,
+				2A51577D1F8929000011F0CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		384108DB61505A779599BED3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FA816DE9D667EE061ACF3CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalHacks4/Pods-CalHacks4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADEDE15B62AEFFB521CEB6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalHacks4/Pods-CalHacks4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A5157701F8929000011F0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A51578E1F892A4E0011F0CB /* User.swift in Sources */,
+				2A51578A1F8929910011F0CB /* LoginViewController.swift in Sources */,
+				2A5157901F892BAA0011F0CB /* NetworkManager.swift in Sources */,
+				2A51577A1F8929000011F0CB /* ViewController.swift in Sources */,
+				2A5157781F8929000011F0CB /* AppDelegate.swift in Sources */,
+				2A5157921F893F5B0011F0CB /* extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A51577B1F8929000011F0CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A51577C1F8929000011F0CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A5157801F8929000011F0CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A5157811F8929000011F0CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A5157841F8929000011F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A5157851F8929000011F0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A5157871F8929000011F0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 096F3EEBD3B38E2C294EAC9E /* Pods-CalHacks4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DDCRUXY46;
+				INFOPLIST_FILE = CalHacks4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Klok-Tech.CalHacks4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A5157881F8929000011F0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9EB1532416BD422641CDF7B /* Pods-CalHacks4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DDCRUXY46;
+				INFOPLIST_FILE = CalHacks4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Klok-Tech.CalHacks4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A51576F1F8929000011F0CB /* Build configuration list for PBXProject "CalHacks4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5157841F8929000011F0CB /* Debug */,
+				2A5157851F8929000011F0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A5157861F8929000011F0CB /* Build configuration list for PBXNativeTarget "CalHacks4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A5157871F8929000011F0CB /* Debug */,
+				2A5157881F8929000011F0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A51576C1F8929000011F0CB /* Project object */;
+}
